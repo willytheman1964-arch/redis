@@ -346,13 +346,9 @@ make PROG_SUFFIX="-alt"
 You can build a 32 bit Redis binary using:
 
 ```sh
-make 32bit
-```
+make 32
 
-After building Redis, it is a good idea to test it using:
-
-```sh
-make test
+``
 ```
 
 If TLS is built, running the tests with TLS enabled (you will need `tcl-tls` installed):
